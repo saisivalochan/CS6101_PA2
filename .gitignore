@@ -1,0 +1,15 @@
+.venv/
+.tools/
+__pycache__/
+*.pyc
+build/
+data/
+indices/
+results/
+submission/
+cloud/runtime.json
+cloud-download/
+submission_details.json
+llm_transcripts/
+*.zip
+*.tar.gz

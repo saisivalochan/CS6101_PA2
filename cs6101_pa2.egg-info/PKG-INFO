@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: cs6101-pa2
+Version: 1.0.0
+Summary: Reproducible in-memory Vamana and FAISS experiments
+Requires-Python: >=3.10
+Requires-Dist: numpy<3,>=1.26
+Requires-Dist: faiss-cpu<2,>=1.8
+Requires-Dist: scikit-learn<2,>=1.4
+Requires-Dist: datasets<5,>=2.19
+Requires-Dist: pyarrow>=15
+Requires-Dist: matplotlib<4,>=3.8
+Requires-Dist: psutil>=5.9
+Requires-Dist: reportlab<5,>=4
+Requires-Dist: threadpoolctl>=3

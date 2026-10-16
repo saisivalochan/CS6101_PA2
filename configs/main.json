@@ -1,0 +1,18 @@
+{
+  "data_dir": "data",
+  "index_dir": "indices",
+  "results_dir": "results",
+  "seed": 42,
+  "pca_sample": 100000,
+  "pca_components": 128,
+  "threads": 1,
+  "timing_queries": 1000,
+  "timing_repeats": 3,
+  "warmup_queries": 50,
+  "hnsw": {"M": 32, "efConstruction": 200, "efSearch": [10, 20, 50, 100, 200]},
+  "vamana": {"R": 64, "L_build": 100, "alpha": 1.2, "L_search": [10, 20, 50, 100, 200]},
+  "study": [{"R": 64, "L_build": 100, "alpha": 1.2}, {"R": 32, "L_build": 100, "alpha": 1.2}, {"R": 64, "L_build": 100, "alpha": 1.0}],
+  "scaling_sizes": [100000, 250000, 500000],
+  "full_datasets": ["sift1m", "quora", "nq"],
+  "checkpoint_seconds": 900
+}
